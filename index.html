@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f4c7d1">
+<title>Miyu's Little Diary ♡</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="viewer">
+ <div class="book" aria-label="Miyu's Little Diary">
+  <img class="spread" id="spread" src="assets/spread-01.png" alt="Miyu's illustrated diary welcome page">
+  <div class="turn-sheet" id="turnSheet" aria-hidden="true"></div>
+  <button class="hotspot prev" id="prev" aria-label="Previous diary pages" type="button"></button>
+  <button class="hotspot next" id="next" aria-label="Next diary pages" type="button"></button>
+  <nav class="progress" id="progress" aria-label="Diary progress"></nav>
+  <span class="sr-only" id="status" aria-live="polite"></span>
+ </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
